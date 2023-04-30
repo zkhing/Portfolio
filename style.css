@@ -55,3 +55,8 @@ section p {
   line-height: 1.5;
   max-width: 55ch;
 }
+
+img{
+  width: 200px;
+  border-radius: 50%;
+}
