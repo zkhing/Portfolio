@@ -56,7 +56,19 @@ section p {
   max-width: 55ch;
 }
 
-img{
+.profile-img{
   width: 200px;
   border-radius: 50%;
+}
+
+.project-container{
+  display: flex;
+}
+
+.project-card{
+  justify-content: center;
+}
+
+img{
+  width: 200px;
 }
