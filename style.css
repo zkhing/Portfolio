@@ -56,13 +56,24 @@ section p {
   max-width: 55ch;
 }
 
+/* ----------------profile--------------- */
+.profile-container{
+  display: flex;
+}
+
 .profile-img{
-  width: 200px;
+  width: 150px;
   border-radius: 50%;
 }
 
+
+/* ----------------project--------------- */
 .project-container{
   display: flex;
+}
+
+.profile-card{
+  padding: 20px;
 }
 
 .project-card{
@@ -71,4 +82,23 @@ section p {
 
 img{
   width: 200px;
+}
+
+/* ----------------contact--------------- */
+.contact-container{
+  display: flex;
+}
+
+.contact-card{
+   margin: 20px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
