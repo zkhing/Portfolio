@@ -94,15 +94,18 @@ img{
 /* ----------------contact--------------- */
 .contact-container{
   display: flex;
+  justify-content: space-evenly;
+  margin: 20px;
 }
 
-.contact-card{
-   margin: 20px;
+.contact-info{
+  justify-content: flex-end;
+   align-self: center;
 }
 
 input, textarea {
   width: 100%;
-  padding: 12px 20px;
+  padding: 15px 70px;
   margin: 8px 0;
   display: inline-block;
   border: 1px solid #ccc;
