@@ -91,6 +91,19 @@ img{
   width: 200px;
 }
 
+button{
+  background-color: #04AA6D;
+  color: #ffffff;
+  border-color: #04AA6D;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  border: none;
+}
+
+button:hover{
+  background-color:#4CAF50 ;
+}
 /* ----------------contact--------------- */
 .contact-container{
   display: flex;
@@ -100,7 +113,7 @@ img{
 
 .contact-info{
   justify-content: flex-end;
-   align-self: center;
+  align-self: center;
 }
 
 input, textarea {
@@ -108,6 +121,7 @@ input, textarea {
   padding: 15px 70px;
   margin: 8px 0;
   display: inline-block;
+  cursor: pointer;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
